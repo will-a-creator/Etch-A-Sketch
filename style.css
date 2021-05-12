@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+section{
+    
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.box {
+    background: #ffffff;
+    border: black 1px solid;
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 0;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+   
+    
+}
+
+.row {
+    display: block;
+    float: left;
+    width:100%;
+    
+    padding-left: 33%;
+    
+}
+
+#make{
+    
+}
