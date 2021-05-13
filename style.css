@@ -1,20 +1,23 @@
 .button-container{
     min-width: 120px;
-    margin: 27px 525px;
-    float: left;
-    text-align: center;
-    padding-top: 0px;
+    margin: 20px 525px;
     
-    border: solid;
-    border-width: 3px;
-    border-radius: 3px;
-    border-color:#f3a42e;
+    text-align: center;
+    padding-top: -60px;
+    
+    
+    
 }
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
 }
 section{
     
@@ -37,6 +40,7 @@ section{
     display: inline-block;
     float: left;  
 }
+
 .row {
     display: block;
     float: left;
