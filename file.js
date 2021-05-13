@@ -12,26 +12,14 @@ function createGrid(){
     
 }
 //paint after pressing the button
-var color = "#E73C99";
-document.querySelector('div').addEventListener(
-    "mouseover", function() {
-        document.querySelector("div").style.background = color; 
-    })
-
-function paintPen(){
-    
+function generateColor(name, colors){
+const randomColors = colors[Math.floor(Math.random() * colors.length,)];
+container.addEventListener('mouseover', (e) =>{
+    e.target.style.backgroundColor = randomColors;
+});
 }
-/*
-$(document).ready(function(){
-    $('div').hover(function(){
-      $(this).css("color", "yellow");
-      }, function(){
-      $(this).css("color", "pink");
-    });
-  });
 
-
-
+createGrid();
 
 
 /*

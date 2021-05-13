@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="./style.css">
         <title>ETCH A SKETCH</title>
     </head>
+    
     <body>
         <section class="page">
             <div class="title">
@@ -14,15 +15,16 @@
             </div>
 
             <main>
-            <div>
+            <div id ="grid-container">
                 <div id="boxParent"></div>
             </div>
-            <div>
-                <button id ="make" onclick="createGrid();">MAKE BLOCKS</button>
+            
+            <div class = "button-container">
+                    <button class = "clear">New Grid</button>
+                <button id ="color"><a href="#">COLOR</a></button>
             </div>
-            <div>
-                <button class="changeColor" onclick ="paintPen();">PEN</button>
-            </div>
+
+            
             </main>
 
 
@@ -31,6 +33,7 @@
 
 
         </section>
+        <p class = "copyright">Created by will-a-creator</p>
 
         <script src="file.js"></script>
     </body>
