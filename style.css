@@ -23,20 +23,14 @@ section{
     margin-top: 0;
     cursor: pointer;
     display: inline-block;
-    float: left;
-   
-    
+    float: left;  
 }
-
 .row {
     display: block;
     float: left;
     width:100%;
-    
-    padding-left: 33%;
-    
+    padding-left: 33%;   
 }
-
-#make{
-    
+.change{
+    color: black;
 }
