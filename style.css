@@ -1,11 +1,16 @@
 .button-container{
-    width: 120px;
+    min-width: 120px;
     margin: 27px 525px;
     float: left;
     text-align: center;
-    color: darkgoldenrod;
+    padding-top: 0px;
+    
+    border: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color:#f3a42e;
 }
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,7 +23,7 @@ section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 2px;
     font-size: 30px;
 }
 .box {
@@ -36,18 +41,11 @@ section{
     display: block;
     float: left;
     width:100%;
-    padding-left: 33%;   
+    padding-left: 32.4%;   
 }
 .change{
     color: black;
 }
 html{
     height:100%;
-}
-.button-container{
-    width: 120px;
-    margin: 27px 525px;
-    float: left;
-    text-align: center;
-    color: darkgoldenrod;
 }

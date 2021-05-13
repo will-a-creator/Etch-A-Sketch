@@ -12,15 +12,25 @@ function createGrid(){
     
 }
 //paint after pressing the button
-function generateColor(name, colors){
-const randomColors = colors[Math.floor(Math.random() * colors.length,)];
-container.addEventListener('mouseover', (e) =>{
-    e.target.style.backgroundColor = randomColors;
-});
+var etch = function(){
+    var grid = document.getElementsByClassName('box');
+    var grid2 = document.getElementById('row');
+
+    Array.from(grid).forEach(v => v.addEventListener('mouseover', function(){
+        v.style.background ='black';
+    
+    }));
+};
+var defaultEtch = function(){
+    $('#default').on('click', function(){ 
+        screenReset();
+        etch();
+    })
 }
 
 createGrid();
-
+etch();
+defaultEtch();
 
 /*
 const container = document.querySelector('.page');
